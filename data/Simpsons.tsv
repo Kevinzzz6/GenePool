@@ -1,0 +1,23 @@
+# The (Small) Simpsons Family Tree
+# Scrounged from the internet, mainly here:
+# https://simpsons.fandom.com/wiki/Simpson_family
+
+# First Generation
+Clancy	man	???	???
+Jacqueline	woman	???	???
+Mona	woman	???	???
+Abe	man	???	???
+
+# Second Generation
+Patty	woman	Jacqueline	Clancy
+Selma	woman	Jacqueline	Clancy
+Marge	woman	Jacqueline	Clancy
+
+Homer	man	Mona	Abe
+Herbert	man	???	Abe
+Abbey	woman	???	Abe
+
+# Third Generation
+Bart	man	Marge	Homer
+Lisa	woman	Marge	Homer
+Maggie	woman	Marge	Homer

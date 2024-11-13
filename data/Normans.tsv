@@ -1,0 +1,26 @@
+# The direct relations of William the Conqueror
+# https://en.wikipedia.org/wiki/List_of_English_monarchs#House_of_Normandy
+
+# First Generation
+Adela of France	woman	???	???
+Baldwin the Bearded	man	???	???
+Herleva	woman	???	???
+Robert the Magnificent	man	???	???
+
+# Second Generation
+Adelaide of Normandy	woman	???	Robert the Magnificent
+Baldwin the Good	man	Adela of France	Baldwin the Bearded
+Matilda of Flanders	woman	Adela of France	Baldwin the Bearded
+Robert the Frisian	man	Adela of France	Baldwin the Bearded
+William the Conqueror	man	Herleva	Robert the Magnificent
+
+# Third Generation
+Adela of England	woman	Matilda of Flanders	William the Conqueror
+Adeliza of Normandy	woman	Matilda of Flanders	William the Conqueror
+Cecilia of Normandy	woman	Matilda of Flanders	William the Conqueror
+Constance of Normandy	woman	Matilda of Flanders	William the Conqueror
+Henry Beauclerc	man	Matilda of Flanders	William the Conqueror
+Matilda of Normandy	woman	Matilda of Flanders	William the Conqueror
+Richard of Normandy	man	Matilda of Flanders	William the Conqueror
+Robert Curthose	man	Matilda of Flanders	William the Conqueror
+William Rufus	man	Matilda of Flanders	William the Conqueror

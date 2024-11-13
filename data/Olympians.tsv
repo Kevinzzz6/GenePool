@@ -1,0 +1,298 @@
+# Family Tree of the Greek Gods
+# Mainly based on this Wikipedia article:
+# https://en.wikipedia.org/wiki/Family_tree_of_the_Greek_gods
+
+# Random Mortals
+Alcmene	woman	???	???
+Cadmus	man	???	???
+Ariadne	woman	???	???
+Tithonus	man	???	???
+Peleus	man	???	???
+Cephalus	man	???	???
+Jason	man	???	???
+Anchises	man	???	???
+Iasion	man	???	???
+Odysseus	man	???	???
+
+
+# The First Gods
+Chaos	woman	???	???
+Tartarus	man	???	???
+Gaia	woman	???	???
+Eros	man	???	???
+
+Erebus	man	Chaos	???
+Nyx	woman	Chaos	???
+
+Aether	man	Nyx	Erebus
+Hemera	woman	Nyx	Erebus
+
+Uranus	man	Gaia	???
+The Ourea	woman	Gaia	???
+Pontus	man	Gaia	???
+
+
+# The Titans
+Oceanus	man	Gaia	Uranus
+Tethys	woman	Gaia	Uranus
+Hyperion	man	Gaia	Uranus
+Theia	woman	Gaia	Uranus
+Coeus	man	Gaia	Uranus
+Phoebe	woman	Gaia	Uranus
+Cronus	man	Gaia	Uranus
+Rhea	woman	Gaia	Uranus
+Themis	woman	Gaia	Uranus
+Mnemosyne	woman	Gaia	Uranus
+Crius	man	Gaia	Uranus
+Iapetus	man	Gaia	Uranus
+
+## The Cyclopes
+Brontes	man	Gaia	Uranus
+Steropes	man	Gaia	Uranus
+Arges	man	Gaia	Uranus
+
+## The Hecatoncheires
+Cottus	man	Gaia	Uranus
+Briareos	man	Gaia	Uranus
+Gyges	man	Gaia	Uranus
+
+
+## The Erinyes
+Alecto	woman	Gaia	Uranus
+Megaera	woman	Gaia	Uranus
+Tisiphone	woman	Gaia	Uranus
+
+The Gigantes	man	Gaia	Uranus
+The Meliae	woman	Gaia	Uranus
+Aphrodite	woman	???	Uranus
+
+
+# The First Olympians
+Demeter	woman	Rhea	Cronus
+Hestia	woman	Rhea	Cronus
+Hera	woman	Rhea	Cronus
+Hades	man	Rhea	Cronus
+Poseidon	man	Rhea	Cronus
+Zeus	man	Rhea	Cronus
+
+
+# Children of Nyx
+Moros	man	Nyx	???
+Thanatos	man	Nyx	???
+The Oneiroi	man	Nyx	???
+Oizys	woman	Nyx	???
+Nemesis	woman	Nyx	???
+Philotes	woman	Nyx	???
+Ker	man	Nyx	???
+Hypnos	man	Nyx	???
+Momus	man	Nyx	???
+The Keres	woman	Nyx	???
+Apate	woman	Nyx	???
+Geras	man	Nyx	???
+Eris	woman	Nyx	???
+
+## The Moirai
+Clotho	woman	Nyx	???
+Lachesis	woman	Nyx	???
+Atropos	woman	Nyx	???
+
+## The Hesperides
+Aegle	woman	Nyx	???
+Erythea	woman	Nyx	???
+Hesperia	woman	Nyx	???
+Arethusa	woman	Nyx	???
+
+
+# Children of Eris
+Ponos	man	Eris	???
+Limos	woman	Eris	???
+The Hysmenai	man	Eris	???
+The Phonoi	man	Eris	???
+The Neikea	woman	Eris	???
+The Logoi	man	Eris	???
+Dysnomia	woman	Eris	???
+Korkos	man	Eris	???
+Lethe	woman	Eris	???
+The Algea	man	Eris	???
+The Machai	man	Eris	???
+The Androktasiai	woman	Eris	???
+The Pseudea	man	Eris	???
+The Amphillogiai	woman	Eris	???
+Ate	woman	Eris	???
+
+
+# Children of Tethys and Oceanus
+The Potamoi	man	Tethys	Oceanus
+The Oceanids	woman	Tethys	Oceanus
+
+## Important Oceanids
+Metis	woman	Tethys	Oceanus
+Doris	woman	Tethys	Oceanus
+Electra	woman	Tethys	Oceanus
+Callirhoe	woman	Tethys	Oceanus
+Perse	woman	Tethys	Oceanus
+Idyia	woman	Tethys	Oceanus
+Calypso	woman	Tethys	Oceanus
+Styx	woman	Tethys	Oceanus
+Clymene	woman	Tethys	Oceanus
+Eurynome	woman	Tethys	Oceanus
+Pleione	woman	Tethys	Oceanus
+
+
+# Children of Gaia and Pontus
+Nereus	man	Gaia	Pontus
+Thaumas	man	Gaia	Pontus
+Phorcys	man	Gaia	Pontus
+Ceto	woman	Gaia	Pontus
+Eurybia	woman	Gaia	Pontus
+
+Iris	woman	Electra	Thaumas
+
+## The Harpies
+Aello	woman	Electra	Thaumas
+Ocypete	woman	Electra	Thaumas
+
+## The Graiai
+Deino	woman	Ceto	Phorcys
+Enyo	woman	Ceto	Phorcys
+Pemphredo	woman	Ceto	Phorcys
+
+## The Gorgons
+Sthenno	woman	Ceto	Phorcys
+Euryale	woman	Ceto	Phorcys
+Medusa	woman	Ceto	Phorcys
+
+Echidna	woman	Ceto	Phorcys
+Ladon	man	Ceto	Phorcys
+
+Pegasus	man	Medusa	Poseidon
+Chrysoar	man	Medusa	Poseidon
+
+Geryon	man	Callirhoe	Chrysoar
+
+
+# Assorted Monsters
+Typhon	man	Gaia	Tartarus
+
+Orthus	man	Echidna	Typhon
+Cerberus	man	Echidna	Typhon
+Hydra	woman	Echidna	Typhon
+Chimera	woman	Echidna	Typhon
+
+The Sphinx	woman	Chimera	Orthus
+The Nimean Lion	man	Chimera	Orthus
+
+
+# Children of the Titans
+Helios	man	Theia	Hyperion
+Eos	woman	Theia	Hyperion
+Selene	woman	Theia	Hyperion
+
+Astraeus	man	Eurybia	Crius
+Pallas	man	Eurybia	Crius
+Perses	man	Eurybia	Crius
+
+## The Anemoi
+Zephyrus	man	Eos	Astraeus
+Boreas	man	Eos	Astraeus
+Notos	man	Eos	Astraeus
+
+Eosphoros	man	Eos	Astraeus
+The Stars	man	Eos	Astraeus
+
+Zelus	man	Styx	Pallas
+Nike	woman	Styx	Pallas
+Kratos	man	Styx	Pallas
+Bia	woman	Styx	Pallas
+
+Leto	woman	Phoebe	Coeus
+Asteria	woman	Phoebe	Coeus
+
+Hecate	woman	Asteria	Perses
+
+Atlas	man	Clymene	Iapetus
+Menoetius	man	Clymene	Iapetus
+Prometheus	man	Clymene	Iapetus
+Epimetheus	man	Clymene	Iapetus
+
+Maia	woman	Pleione	Atlas
+
+
+# Divine Children of Zeus
+Athena	woman	Metis	Zeus
+
+## The Horae
+Eunomia	woman	Themis	Zeus
+Dike	woman	Themis	Zeus
+Eirene	woman	Themis	Zeus
+
+## The Charities
+Aglaea	woman	Eurynome	Zeus
+Euphrosyne	woman	Eurynome	Zeus
+Thalia	woman	Eurynome	Zeus
+
+Persephone	woman	Demeter	Zeus
+
+## The Muses
+Calliope	woman	Mnemosyne	Zeus
+Clio	woman	Mnemosyne	Zeus
+Erato	woman	Mnemosyne	Zeus
+Euterpe	woman	Mnemosyne	Zeus
+Melpomene	woman	Mnemosyne	Zeus
+Polyhymnia	woman	Mnemosyne	Zeus
+Terpsichore	woman	Mnemosyne	Zeus
+Thaleia	woman	Mnemosyne	Zeus
+Urania	woman	Mnemosyne	Zeus
+
+Apollo	man	Leto	Zeus
+Artemis	woman	Leto	Zeus
+
+Hebe	woman	Hera	Zeus
+Ares	man	Hera	Zeus
+Eileithyia	woman	Hera	Zeus
+
+Hephaestus	man	Hera	???
+
+
+# Other Descendants of Divine Fathers
+Amphitrite	woman	Doris	Nereus
+Thetis	woman	Doris	Nereus
+Triton	man	Amphitrite	Poseidon
+
+Phobos	man	Aphrodite	Ares
+Deimos	man	Aphrodite	Ares
+Harmonia	woman	Aphrodite	Ares
+
+Semele	woman	Harmonia	Cadmus
+Ino	woman	Harmonia	Cadmus
+Agave	woman	Harmonia	Cadmus
+Autonoe	woman	Harmonia	Cadmus
+Polydorus	man	Harmonia	Cadmus
+
+Hermes	man	Maia	Zeus
+Heracles	man	Alcmene	Zeus
+Dionysus	man	Semele	Zeus
+Thoas	man	Ariadne	Dionysus
+
+Circe	woman	Perse	Helios
+Aeetes	man	Perse	Helios
+Medea	woman	Idyia	Aeetes
+
+
+# Other Descendants of Divine Mothers
+Plutus	man	Demeter	Iasion
+
+Memnon	man	Eos	Tithonus
+Emathion	man	Eos	Tithonus
+Phaethon	man	Eos	Cephalus
+
+Medeius	man	Medea	Jason
+
+Achilles	man	Thetis	Peleus
+
+Aeneas	man	Aphrodite	Anchises
+
+Agrios	man	Circe	Odysseus
+Latinus	man	Circe	Odysseus
+Nausithous	man	Calypso	Odysseus
+Nausinous	man	Calypso	Odysseus

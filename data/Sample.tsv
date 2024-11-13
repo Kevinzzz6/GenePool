@@ -1,0 +1,97 @@
+# This is some data I made up.
+
+
+# First Generation
+Lionel	man	???	???
+Vera	woman	???	???
+Thomas	man	???	???
+
+# Second Generation
+Methuselah	man	Vera	Lionel
+Leah	woman	Vera	Lionel
+Caleb	man	Vera	Lionel
+Rachel	woman	Vera	Lionel
+
+Marguerite	woman	???	???
+Jordan	man	???	???
+Josephine	woman	???	???
+Robert	man	???	???
+
+Marco	man	Leah	Thomas
+Anabel	woman	Leah	Thomas
+Willem	man	???	Thomas
+Wendy	woman	???	Thomas
+Wanda	woman	???	Thomas
+
+Timothy	man	???	???
+
+# Third Generation
+Joy	woman	???	???
+
+Adam	man	Marguerite	Methuselah
+Ada	woman	Marguerite	Methuselah
+
+Evan	man	Josephine	Jordan
+Eva	woman	Josephine	Jordan
+Evelyn	woman	Josephine	Jordan
+
+Petra	woman	Rachel	Robert
+Peter	man	Rachel	Robert
+Paul	man	Rachel	Robert
+
+Coral	woman	Wanda	Timothy
+Cindy	woman	Wanda	Timothy
+
+Sasha	man	???	???
+
+# Fourth Generation
+Jenny	woman	Joy	Adam
+
+Alice	woman	Eva	Adam
+Alison	woman	Eva	Adam
+Alistair	man	Eva	Adam
+Alan	man	Eva	Adam
+
+Bob	man	Eva	Peter
+Barbara	woman	Eva	Peter
+Bonnie	woman	Eva	Peter
+
+Carl	man	Cindy	Peter
+Cari	woman	Cindy	Peter
+Carver	man	Cindy	Peter
+Cat	woman	Cindy	Peter
+
+Don	man	Cindy	Sasha
+
+Emily	woman	???	???
+Lisa	woman	???	???
+Lars	man	???	???
+Judy	woman	???	???
+Cyril	man	???	???
+Thorsten	man	???	???
+Andy	man	???	???
+
+#Fifth Generation
+Ginny	woman	Alison	Carl
+George	man	Alison	Carl
+Garrett	man	Alison	Carl
+
+Stuart	man	Emily	Alistair
+Richard	man	Emily	Alistair
+William	man	Emily	Alistair
+
+Valerie	woman	Lisa	Bob
+
+Matti	man	Barbara	Lars
+Sana	woman	Barbara	Lars
+Hans	man	Judy	Lars
+
+Morgana	woman	Cari	Cyril
+Maria	woman	Cari	Thorsten
+
+Renard	man	Cat	Andy
+
+Sue	woman	???	???
+
+#Sixth Generation
+Cassie	woman	Sue	Renard

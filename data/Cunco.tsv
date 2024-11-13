@@ -1,0 +1,22 @@
+# Ancestry of Cunco based on the family tree image from:
+# https://www.yourgenome.org/stories/inbreeding-from-champion-horses-to-life-saving-mice
+
+Fairy Bridge	woman	???	???
+Northern Dancer	man	???	???
+Pas De Nom	woman	???	???
+Razyana	woman	???	???
+Saintly Speech	woman	???	???
+Urban Sea	woman	???	???
+Mira Adonde	woman	???	???
+Rainbow Lake	woman	???	???
+
+Danzig	man	Pas De Nom	Northern Dancer
+Sadlers Wells	man	Fairy Bridge	Northern Dancer
+Danehill	man	Razyana	Danzig
+Well Spoken	woman	Saintly Speech	Sadlers Wells
+Galileo	man	Urban Sea	Sadlers Wells
+Danehill Dancer	man	Mira Adonde	Danehill
+Kind	woman	Rainbow Lake	Danehill
+Chrysanthemum	woman	Well Spoken	Danehill Dancer
+Frankel	man	Kind	Galileo
+Cunco	man	Chrysanthemum	Frankel
