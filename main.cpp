@@ -38,10 +38,15 @@ int main()
 {
     using namespace cs32;
     
+    cs32::GenePool pool;
+    // 添加这行来确认文件是否成功加载
+    int count = pool.load("./data/Sample.tsv");
+    std::cout << "Loaded " << count << " records" << std::endl;
+
     GenePool database;
-    // database.load( PATH_TO_SIMPSONS_DATA_WINDOWS );
-    // database.load( PATH_TO_CUNCO_DATA_WINDOWS );
-    database.load( PATH_TO_SAMPLE_DATA_WINDOWS );
+    database.load( "./data/Simpsons.tsv" );
+    database.load( "./data/Cunco.tsv" );
+    database.load( "./data/Sample.tsv" );
     
     std::string line;
     std::cout << "> ";

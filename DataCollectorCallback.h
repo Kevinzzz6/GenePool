@@ -18,6 +18,7 @@ class DataCollectorCallback
 {
 public:
     virtual void tsvData( std::map< std::string, std::string > row ) = 0;
+    virtual ~DataCollectorCallback() = default;
 private:
     
 };

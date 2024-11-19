@@ -23,6 +23,12 @@ private:
     Gender      mGender;
     // CS 32 Students are expected to add additional private data members as they
     //       fully implement this class
+    Person* mFather;
+    Person* mMother;
+
+    std::set<Person*> mChildren;
+    std::set<Person*> mSiblings;
+    std::set<Person*> mGrandparents;
     
 public:
     Person();
