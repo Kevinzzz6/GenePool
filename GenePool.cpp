@@ -116,21 +116,29 @@ void GenePool::findEveryonesChildren() const
 //      people vector
 void GenePool::tsvData( std::map< std::string, std::string > row )
 {
-    std::string name = row["name"];
-    std::string gender = row["gender"];
-    std::string father = row["father"];
-    std::string mother = row["mother"];
+    if (row.empty() || row.begin()->second.empty() || row.begin()->second[0] == '#') {
+        return;
+    }
+
+    auto it = row.begin();
+    std::string name = it->second;
+    ++it;
+    std::string gender = it->second;
+    ++it;
+    std::string father = it->second;
+    ++it;
+    std::string mother = it->second;
 
     Person* person = new Person(name, toGender(gender));  
     
-    if (!father.empty()) {
+    if (!father.empty() && father != "???") {
         Person* fatherPerson = find(father);
         if (fatherPerson != nullptr) {
             person->setFather(fatherPerson);
         }
     }
     
-    if (!mother.empty()) {
+    if (!mother.empty() && mother != "???") {
         Person* motherPerson = find(mother);
         if (motherPerson != nullptr) {
             person->setMother(motherPerson);
