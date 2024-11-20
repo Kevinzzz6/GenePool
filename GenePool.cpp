@@ -46,7 +46,6 @@ int GenePool::load( const std::string& filePath )
     }
     // once everyone is loaded individually, then establish the additional relationships
     //      namely siblings, grandparents and children
-    isLoaded = true;
     findEveryonesSiblings();
     findEveryonesGrandparents();
     findEveryonesChildren();
