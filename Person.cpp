@@ -1,5 +1,5 @@
 #include "Person.h"
-
+#include <iostream>
 namespace cs32
 {
 
@@ -34,7 +34,6 @@ Person* Person::getFather() const {
     return mFather;
 }
 
-// TODO Who is your mother?
 void Person::setMother(Person* p) {
     if (p != nullptr && p->getGender() == Gender::WOMAN) {
         mMother = p;
@@ -42,7 +41,6 @@ void Person::setMother(Person* p) {
     }
 }
 
-// TODO Who is your father?
 void Person::setFather(Person* p) {
     if (p != nullptr && p->getGender() == Gender::MAN) {
         mFather = p;

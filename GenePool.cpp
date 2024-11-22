@@ -2,6 +2,7 @@
 #include "Person.h"
 #include "TSVFile.h"
 #include <string>
+#include <iostream>
 
 
 namespace cs32
@@ -33,23 +34,20 @@ void GenePool::clear()
     isLoaded = false;
 }
 
-// read the TSVFile, inflate the database and return the number of records read
-int GenePool::load( const std::string& filePath )
-{
+int GenePool::load(const std::string& filePath) {
     isLoaded = true;
-    TSVFile file( this );
-    int recordCount = file.readFile( filePath );
+    TSVFile file(this);
+    int recordCount = file.readFile(filePath);
     if (recordCount <= 0) {
         throw "No records read from file: " + filePath;
         isLoaded = false;
-        // i suppose you could throw an exception to communicate no records read...
     }
-    // once everyone is loaded individually, then establish the additional relationships
-    //      namely siblings, grandparents and children
+    
     findEveryonesSiblings();
     findEveryonesGrandparents();
     findEveryonesChildren();
-    return( recordCount );
+    
+    return recordCount;
 }
 
 // TODO establish every person's grandparents - grandfathers and grandmothers - in the database,
@@ -113,8 +111,7 @@ void GenePool::findEveryonesChildren() const
 // TODO this operation gets called over and over, once per line of data in the tsv data file
 //      from the map parameter, this operation should create a new Person and add it to the 
 //      people vector
-void GenePool::tsvData( std::map< std::string, std::string > row )
-{
+void GenePool::tsvData(std::map<std::string, std::string> row) {
     if (row.empty() || row.begin()->second.empty() || row.begin()->second[0] == '#') {
         return;
     }
@@ -124,11 +121,12 @@ void GenePool::tsvData( std::map< std::string, std::string > row )
     ++it;
     std::string gender = it->second;
     ++it;
-    std::string father = it->second;
-    ++it;
     std::string mother = it->second;
+    ++it;
+    std::string father = it->second;
 
     Person* person = new Person(name, toGender(gender));  
+    people.push_back(person);
     
     if (!father.empty() && father != "???") {
         Person* fatherPerson = find(father);
@@ -143,8 +141,6 @@ void GenePool::tsvData( std::map< std::string, std::string > row )
             person->setMother(motherPerson);
         }
     }
-
-    people.push_back(person);  
 }
 
 // Converts a string (like "man") into one of the Gender enumerated values (like Gender::MAN)
@@ -178,38 +174,25 @@ GenePool::~GenePool()
 }
 
 // Returns a set with all the people in the database, if the database has been loaded with data
-std::set<cs32::Person*> GenePool::everyone() const
-{
-    std::set< Person * > set;
-    if (loaded())
-    {
-        for( std::vector< Person * >::const_iterator iter = people.begin(); iter != people.end(); iter++)
-        {
-            Person * p = *iter;
-            set.insert( p );
+std::set<cs32::Person*> GenePool::everyone() const {
+    std::set<cs32::Person*> result;
+    for (Person* person : people) {
+        if (person != nullptr) {
+            result.insert(person);
         }
     }
-    return( set );
+    return result;
 }
 
 // Find a person in the database by name, if the database has been loaded with data
 // Return nullptr if there is no such person
-cs32::Person* GenePool::find(const std::string& name) const
-{
-    Person * result = nullptr;
-    if (loaded())
-    {
-        for( std::vector< Person * >::const_iterator iter = people.begin(); iter != people.end(); iter++)
-        {
-            Person * p = *iter;
-            if (p->getName() == name)
-            {
-                result = p;
-                break;
-            }
+Person* GenePool::find(const std::string& name) const {
+    for (Person* person : people) {
+        if (person->getName() == name) {
+            return person;
         }
     }
-    return( result );
+    return nullptr;
 }
 
 }

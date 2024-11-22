@@ -29,7 +29,7 @@ void sample()
     std::cout << "ExampleDataCollector-" << std::endl;
     ExampleDataCollector * example = new ExampleDataCollector();
     TSVFile file( example );
-    int recordCount = file.readFile( PATH_TO_CUNCO_DATA_MAC );
+    int recordCount = file.readFile( "./data/Cunco.tsv" );
     std::cout << "ExampleDataCollector-" << recordCount << std::endl;
     delete( example );
 }
@@ -38,11 +38,6 @@ int main()
 {
     using namespace cs32;
     
-    cs32::GenePool pool;
-    // 添加这行来确认文件是否成功加载
-    int count = pool.load("./data/Sample.tsv");
-    std::cout << "Loaded " << count << " records" << std::endl;
-
     GenePool database;
     database.load( "./data/Simpsons.tsv" );
     database.load( "./data/Cunco.tsv" );

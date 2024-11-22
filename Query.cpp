@@ -4,7 +4,7 @@
 #include <sstream>
 #include <stdexcept>
 #include <string>
-#include <istream>
+#include <iostream>
 
 // This file provides query parsing and execution.
 // You can edit it if you want, but you shouldn't need to.
@@ -65,12 +65,12 @@ Query::Query(const std::string& name, const std::string& relationship)
 }
 
 // Helper function that throws an error if a read fails
-void Query::read_term(std::istream& stream, std::string& term)
-{
+void Query::read_term(std::istream& stream, std::string& term) {
     if (!(stream >> term)) {
         throw std::invalid_argument("Too few terms in query.");
     }
 }
+
 
 // Run a query against a gene pool
 std::set< cs32::Person * > Query::run(const cs32::GenePool& pool) const
@@ -150,7 +150,7 @@ std::set< cs32::Person * > Query::run(const cs32::GenePool& pool) const
             throw std::invalid_argument("Unknown relationship: " + mRelationship);
         }
     }
-    return( result );
+    return result;
 }
 
 // Generate a query string:
